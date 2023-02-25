@@ -42,7 +42,7 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 ## Step 1: Collecting the Data
 Install and load all of the libraries I used.
 Upload each monthly trip data .csv file for the entire 2022 year using the read_csv function and save them as separate data frames.  
-
+[Collecting the Data R code](https://github.com/alin-mihalcea/capstone-project/blob/main/01_Collect_Data)
 
 [Go to Table of Content](#table-of-content)
 
