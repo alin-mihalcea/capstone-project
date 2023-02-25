@@ -34,19 +34,26 @@ Moreno has set a clear goal: Design marketing strategies aimed at converting cas
 
 ## Description of the Data Sources
 I downloaded the last 12 months (entire 2022 year) of Cyclistic trip data from [here](https://divvy-tripdata.s3.amazonaws.com/index.html).
+
 Each .csv file contains the data for each month.
+
 The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study,
 the datasets are appropriate and will enable me to answer the business questions. The data has been made available by
 Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement).
 
 ## Step 1: Collecting the Data
-Install and load all of the libraries I used.
-Upload each monthly trip data .csv file for the entire 2022 year using the read_csv function and save them as separate data frames.  
-[Collecting the Data R code](https://github.com/alin-mihalcea/capstone-project/blob/main/01_Collect_Data)
+[R code](https://github.com/alin-mihalcea/capstone-project/blob/main/01_Collect_Data)
+1. Install and load all of the libraries I used.
+2. Upload each monthly trip data .csv file for the entire 2022 year using the read_csv function and save them as separate data frames.
+
+## Step 2: Data Cleaning
+[R code](https://github.com/alin-mihalcea/capstone-project/blob/main/02_Clean_Data)
+1. Check the correct data type of each field and if the files have the same fields using the glimpse function.
+2. Union all the monthly data frames into one data frame for the entire year using the bind_rows function.
+3. Display the new data frame using the View function.
+4. Check for duplicate ride ID by returning the ride ID with a frequency higher than 1.
+5. Check if the end time of each trip is after the start time by creating a new column for the trip duration, using the difftime function and remove the record with negative values.
+
 
 [Go to Table of Content](#table-of-content)
-
-
-[Test](https://github.com/alin-mihalcea/capstone-project/blob/main/test)
-
 
