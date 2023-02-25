@@ -7,8 +7,9 @@ The scope of this project is to answer the key business questions for Cyclistic,
 ### Table of Content
 -   [Business Task](#business-task)
 -   [Description of the Data Sources](#description-of-the-data-sources)
--   [Data Cleaning in R]
--   [Data Analysis in R]
+-   [Step 1: Collecting the Data](#collecting-the-data)
+-   [Step 2: Data Cleaning](#collecting-the-data)
+-   [Data Analysis]
 -   [Data visualization in R]
 -   [Analysis Summary]
 -   [Top 3 Recommendations]
@@ -29,7 +30,7 @@ Moreno has set a clear goal: Design marketing strategies aimed at converting cas
 
 ### Business Question:
 **How do annual members and casual riders use Cyclistic bikes differently?**
-[Go to Table of Content](#table-of-content)
+
 
 ## Description of the Data Sources
 I downloaded the last 12 months (entire 2022 year) of Cyclistic trip data from [here](https://divvy-tripdata.s3.amazonaws.com/index.html).
@@ -37,6 +38,12 @@ Each .csv file contains the data for each month.
 The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study,
 the datasets are appropriate and will enable me to answer the business questions. The data has been made available by
 Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement).
+
+## Step 1: Collecting the Data
+Install and load all of the libraries I used.
+Upload each monthly trip data .csv file for the entire 2022 year using the read_csv function and save them as separate data frames.  
+
+
 [Go to Table of Content](#table-of-content)
 
 
