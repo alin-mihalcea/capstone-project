@@ -55,4 +55,9 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 4. Check for duplicate ride ID by returning the ride ID with a frequency higher than 1.
 5. Check if the end time of each trip is after the start time by creating a new column for the trip duration, using the difftime function and remove the record with negative values.
 
+## Step 3: Process the Data
+
+[R code]
+
+1.
 
