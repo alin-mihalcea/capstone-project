@@ -6,7 +6,7 @@ The scope of this project is to answer the key business questions for Cyclistic,
 
 ### Table of Content
 -   [Business Task](#business-task)
--   [Description of the Data Sources]
+-   [Description of the Data Sources](#description-of-the-data-sources)
 -   [Data Cleaning in R]
 -   [Data Analysis in R]
 -   [Data visualization in R]
@@ -27,6 +27,19 @@ Cyclistic’s finance analysts have concluded that annual members are much more 
 
 Moreno has set a clear goal: Design marketing strategies aimed at converting casual riders into annual members. In order to do that, however, the marketing analyst team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. Moreno and her team are interested in analyzing the Cyclistic historical bike trip data to identify trends.
 
+### Business Question:
+**How do annual members and casual riders use Cyclistic bikes differently?**
+[Go to Table of Content](#table-of-content)
+
+## Description of the Data Sources
+I downloaded the last 12 months (entire 2022 year) of Cyclistic trip data from [here](https://divvy-tripdata.s3.amazonaws.com/index.html).
+Each .csv file contains the data for each month.
+The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study,
+the datasets are appropriate and will enable me to answer the business questions. The data has been made available by
+Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement).
+[Go to Table of Content](#table-of-content)
+
+
 [Test](https://github.com/alin-mihalcea/capstone-project/blob/main/test)
 
-[Go to Table of Content](#table-of-content)
+
