@@ -9,8 +9,9 @@ The scope of this project is to answer the key business questions for Cyclistic,
 -   [Description of the Data Sources](#description-of-the-data-sources)
 -   [Step 1: Collecting the Data](#collecting-the-data)
 -   [Step 2: Data Cleaning](#collecting-the-data)
--   [Data Analysis]
--   [Data visualization in R]
+-   [Step 3: Process the Data]
+-   [Step 4: Data Analysis]
+-   [Step 5: Data visualization]
 -   [Analysis Summary]
 -   [Top 3 Recommendations]
 
@@ -54,6 +55,4 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 4. Check for duplicate ride ID by returning the ride ID with a frequency higher than 1.
 5. Check if the end time of each trip is after the start time by creating a new column for the trip duration, using the difftime function and remove the record with negative values.
 
-
-[Go to Table of Content](#table-of-content)
 
