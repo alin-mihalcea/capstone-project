@@ -81,7 +81,25 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 ## Analysis Summary
 
 The total number or rides in 2022 is 4.4 million, annual members having a 60% share, and the casual riders a 40% share.
-<img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz01_doughnut_rides_customer_type.png.png"
+<img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz01_doughnut_rides_customer_type.png"
+width=40% height=40%>
+
+<img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz02_bar_average_ride_time.png"
+width=40% height=40%>
+
+<img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz03_bar_weekdays.png"
+width=40% height=40%>
+
+<img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz04_bar_weekend_workweek.png"
+width=40% height=40%>
+
+<img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz05_bar_months.png"
+width=50% height=50%>
+
+<img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz06_heat_map.png "
+width=100% height=100%>
+
+<img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz07_bar_bike_type.png"
 width=40% height=40%>
 
 
