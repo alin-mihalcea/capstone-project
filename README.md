@@ -69,7 +69,7 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 
 
 ## R: Step 4 - Data Visualization
-[R code]()
+[R code](https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/04_Data_Visualization.R)
 1. Create a doughnut chart for the number of rides for each customer type. Prior to this, new columns are added to the totals_customer_type data frame to accomodate creating this chart.
 2. Create a bar chart for the average duration of the ride for each customer type. The total average duration is also included in the chart.
 3. Create a bar chart for the number of rides per each day of the week.
@@ -78,6 +78,7 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 6. Create a bar chart for the number of rides per bike type and customer type.
 7. Create a heat map for the number of rides structures as a calendar for the entire year.
 
+## Analysis Summary
 
 ## Top 3 Recommendations
 Your top three recommendations based on your analysis
