@@ -80,6 +80,11 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 
 ## Analysis Summary
 
+The total number or rides in 2022 is 4.4 million, annual members having a 60% share, and the casual riders a 40% share.
+<img src="[https://github.com/PaulaB03/-Cyclistic-Bike-Share-Case-Study/blob/master/number_trips_pie.png](https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/01_doughnut_rides_customer_type.png.png)">
+
+
+
 ## Top 3 Recommendations
 Your top three recommendations based on your analysis
 
