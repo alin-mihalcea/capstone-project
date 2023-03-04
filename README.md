@@ -45,15 +45,17 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 ## Step 1: Collecting the Data
 [R code](https://github.com/alin-mihalcea/capstone-project/blob/main/01_Collect_Data)
 1. Install and load all of the libraries I used.
-2. Upload each monthly trip data .csv file for the entire 2022 year using the read_csv function and save them as separate data frames.
+2. Upload each monthly trip data .csv file for the entire 2022 year and save them as separate data frames.
 
 ## Step 2: Data Cleaning
 [R code](https://github.com/alin-mihalcea/capstone-project/blob/main/02_Clean_Data)
-1. Check the correct data type of each field and if the files have the same fields using the glimpse function.
-2. Union all the monthly data frames into one data frame for the entire year using the bind_rows function.
-3. Display the new data frame using the View function.
-4. Check for duplicate ride ID by returning the ride ID with a frequency higher than 1.
-5. Check if the end time of each trip is after the start time by creating a new column for the trip duration, using the difftime function and remove the record with negative values.
+1. Check the correct data type of each field and if all files have the same fields.
+2. Union all the monthly data frames into one data frame for the entire year.
+3. Display the new data frame.
+4. Remove the record with NA values
+5. Check if the data frame contains records with duplicate ride ID.
+6. Check if the end time of each trip is after the start time by creating a new column for the trip duration and remove records with a negative value for trip duration.
+7. Rename the values for member_casual and rideable_type to more legible names. 
 
 ## Step 3: Process the Data
 
