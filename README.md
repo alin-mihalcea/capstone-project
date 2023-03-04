@@ -61,3 +61,10 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 
 1.
 
+
+## Top 3 Recommendations
+Your top three recommendations based on your analysis
+
+1. The daily average number of rides for casual riders is 33 during the weekend and 22 during the workweek, indicating a preference for weekends. My recomednatioon is to increase the price of full-day passes for weekends, to incentivize the casual riders to save money by purchasing annual memberships.
+2. When casual members purchase passes, provide them simulations revealing how much money they would save having an annual membershuip compared to purchasing passses during the summer months, when both casual members and casual riders ride the most.
+3.
