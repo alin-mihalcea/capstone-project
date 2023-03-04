@@ -10,7 +10,7 @@ The scope of this project is to answer the key business questions for Cyclistic,
 -   [R: Step 1 - Collecting the Data](#r-step-1---collecting-the-data)
 -   [R: Step 2 - Data Cleaning](#r-step-2---data-cleaning)
 -   [R: Step 3 - Process the Data and Analysis](#r-step-3---process-the-data-and-analysis)
--   [R: Step 4 - Data Visualization]
+-   [R: Step 4 - Data Visualization](#r-step-4---data-visualization)
 -   [Analysis Summary]
 -   [Top 3 Recommendations]
 
@@ -70,7 +70,14 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 
 ## R: Step 4 - Data Visualization
 [R code]()
-1.
+1. Create a doughnut chart for the number of rides for each customer type. Prior to this, new columns are added to the totals_customer_type data frame to accomodate creating this chart.
+2. Create a bar chart for the average duration of the ride for each customer type. The total average duration is also included in the chart.
+3. Create a bar chart for the number of rides per each day of the week.
+4. After noticing in the previous chart that annual members have less trips during the weekend compared to the workweek and the oposite is valid for the casual riders, a new data frame is created (weekdays_customer_type_df), to show the average daily number of rides for workweek vs weekend for each customer type. A bar chart is created to display this data.
+5. Create a bar chart for the number of rides per each month.
+6. Create a bar chart for the number of rides per bike type and customer type.
+7. Create a heat map for the number of rides structures as a calendar for the entire year.
+
 
 ## Top 3 Recommendations
 Your top three recommendations based on your analysis
