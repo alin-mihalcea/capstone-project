@@ -7,11 +7,11 @@ The scope of this project is to answer the key business questions for Cyclistic,
 ### Table of Content
 -   [Business Task](#business-task)
 -   [Description of the Data Sources](#description-of-the-data-sources)
--   [Step 1: Collecting the Data](#collecting-the-data)
--   [Step 2: Data Cleaning](#collecting-the-data)
--   [Step 3: Process the Data]
--   [Step 4: Data Analysis]
--   [Step 5: Data visualization]
+-   [R: Step 1 - Collecting the Data](#collecting-the-data)
+-   [R: Step 2 - Data Cleaning](#collecting-the-data)
+-   [R: Step 3 - Process the Data]
+-   [R: Step 4 - Data Analysis]
+-   [R: Step 5 - Data visualization]
 -   [Analysis Summary]
 -   [Top 3 Recommendations]
 
