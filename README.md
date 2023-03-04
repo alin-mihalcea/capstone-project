@@ -9,9 +9,8 @@ The scope of this project is to answer the key business questions for Cyclistic,
 -   [Description of the Data Sources](#description-of-the-data-sources)
 -   [R: Step 1 - Collecting the Data](#collecting-the-data)
 -   [R: Step 2 - Data Cleaning](#collecting-the-data)
--   [R: Step 3 - Process the Data]
--   [R: Step 4 - Data Analysis]
--   [R: Step 5 - Data visualization]
+-   [R: Step 3 - Process the Data and Analysis]
+-   [R: Step 5 - Data Visualization]
 -   [Analysis Summary]
 -   [Top 3 Recommendations]
 
@@ -42,22 +41,31 @@ The datasets have a different name because Cyclistic is a fictional company. For
 the datasets are appropriate and will enable me to answer the business questions. The data has been made available by
 Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement).
 
-## Step 1: Collecting the Data
+## R: Step 1 - Collecting the Data
 [R code](https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/01_Collect_Data.R)
 1. Install and load all of the libraries I used.
 2. Upload each monthly trip data .csv file for the entire 2022 year and save them as separate data frames.
 
-## Step 2: Data Cleaning
+## R: Step 2 - Data Cleaning
 [R code](https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/02_Clean_Data.R)
 1. Check the correct data type of each field and if all files have the same fields.
-2. Union all the monthly data frames into one data frame for the entire year.
+2. Union all the monthly data frames into one data frame for the entire year (tripdata_2022).
 3. Display the new data frame.
 4. Remove the record with NA values
 5. Check if the data frame contains records with duplicate ride ID.
 6. Check if the end time of each trip is after the start time by creating a new column for the trip duration and remove records with a negative value for trip duration.
 7. Rename the values for member_casual and rideable_type to more legible names. 
 
-## Step 3: Process the Data
+## R: Step 3 - Process the Data and Analysis
+[R code](https:)
+1. Add new columns for the weekday and month of the ride based on the ride start date and duration.
+2. Create a new data frame (totals) containing the totals for the number of rides and duration. Also, determine the average duration per ride.
+3. Repeat the previous step for each customer type (totals_customer_type).
+4. Create a new data frame (weekdays_df) containing the total number of rides for each weekday.
+5. Create a new data frame (weekdays_customer_type_df) containing the total number of rides for each weekday and customer type.
+6. Create a new data frame (months_customer_type_df) containing the total number of rides for each month and customer type.
+7. Create a new data frame (bike_type_df) containing the total number of rides for each bike type and customer type.
+8. Create a new data frame (bike_type_total_df) containing the total number of rides for each bike type.
 
 [R code]
 
