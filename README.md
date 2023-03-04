@@ -42,12 +42,12 @@ the datasets are appropriate and will enable me to answer the business questions
 Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement).
 
 ## R: Step 1 - Collecting the Data
-[R code](https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/01_Collect_Data.R)
+[R code for Collecting the Data](https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/01_Collect_Data.R)
 1. Install and load all of the libraries I used.
 2. Upload each monthly trip data .csv file for the entire 2022 year and save them as separate data frames.
 
 ## R: Step 2 - Data Cleaning
-[R code](https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/02_Clean_Data.R)
+[R code for Data Cleaning](https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/02_Clean_Data.R)
 1. Check the correct data type of each field and if all files have the same fields.
 2. Union all the monthly data frames into one data frame for the entire year (tripdata_2022).
 3. Display the new data frame.
@@ -57,7 +57,7 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 7. Rename the values for member_casual and rideable_type to more legible names. 
 
 ## R: Step 3 - Process the Data and Analysis
-[R code](https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/03_Data_Analysis.R)
+[R code for Process the Data and Analysis](https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/03_Data_Analysis.R)
 1. Add new columns for the weekday and month of the ride based on the ride start date and duration.
 2. Create a new data frame (totals) containing the totals for the number of rides and duration. Also, determine the average duration per ride.
 3. Repeat the previous step for each customer type (totals_customer_type).
@@ -69,7 +69,7 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 
 
 ## R: Step 4 - Data Visualization
-[R code](https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/04_Data_Visualization.R)
+[R code for Data Visualization](https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/04_Data_Visualization.R)
 1. Create a doughnut chart for the number of rides for each customer type. Prior to this, new columns are added to the totals_customer_type data frame to accomodate creating this chart.
 2. Create a bar chart for the average duration of the ride for each customer type. The total average duration is also included in the chart.
 3. Create a bar chart for the number of rides per each day of the week.
