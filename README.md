@@ -11,8 +11,8 @@ The scope of this project is to answer the key business questions for Cyclistic,
 -   [R: Step 2 - Data Cleaning](#r-step-2---data-cleaning)
 -   [R: Step 3 - Process the Data and Analysis](#r-step-3---process-the-data-and-analysis)
 -   [R: Step 4 - Data Visualization](#r-step-4---data-visualization)
--   [Analysis Summary]
--   [Top 3 Recommendations]
+-   [Analysis Summary](#analysis-summary)
+-   [Top 3 Recommendations](#top-3-recommendations)
 
 ## Business Task
 ### Scenario
