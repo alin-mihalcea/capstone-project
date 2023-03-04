@@ -7,10 +7,10 @@ The scope of this project is to answer the key business questions for Cyclistic,
 ### Table of Content
 -   [Business Task](#business-task)
 -   [Description of the Data Sources](#description-of-the-data-sources)
--   [R: Step 1 - Collecting the Data](#collecting-the-data)
--   [R: Step 2 - Data Cleaning](#collecting-the-data)
--   [R: Step 3 - Process the Data and Analysis]
--   [R: Step 5 - Data Visualization]
+-   [R: Step 1 - Collecting the Data](#r-step-1---collecting-the-data)
+-   [R: Step 2 - Data Cleaning](#r-step-2---data-cleaning)
+-   [R: Step 3 - Process the Data and Analysis](#r-step-3---process-the-data-and-analysis)
+-   [R: Step 4 - Data Visualization]
 -   [Analysis Summary]
 -   [Top 3 Recommendations]
 
@@ -57,7 +57,7 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 7. Rename the values for member_casual and rideable_type to more legible names. 
 
 ## R: Step 3 - Process the Data and Analysis
-[R code](https:)
+[R code](https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/03_Data_Analysis.R)
 1. Add new columns for the weekday and month of the ride based on the ride start date and duration.
 2. Create a new data frame (totals) containing the totals for the number of rides and duration. Also, determine the average duration per ride.
 3. Repeat the previous step for each customer type (totals_customer_type).
@@ -67,10 +67,10 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 7. Create a new data frame (bike_type_df) containing the total number of rides for each bike type and customer type.
 8. Create a new data frame (bike_type_total_df) containing the total number of rides for each bike type.
 
-[R code]
 
+## R: Step 4 - Data Visualization
+[R code]()
 1.
-
 
 ## Top 3 Recommendations
 Your top three recommendations based on your analysis
