@@ -43,12 +43,12 @@ the datasets are appropriate and will enable me to answer the business questions
 Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement).
 
 ## Step 1: Collecting the Data
-[R code](https://github.com/alin-mihalcea/capstone-project/blob/main/01_Collect_Data)
+[R code](https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/01_Collect_Data.R)
 1. Install and load all of the libraries I used.
 2. Upload each monthly trip data .csv file for the entire 2022 year and save them as separate data frames.
 
 ## Step 2: Data Cleaning
-[R code](https://github.com/alin-mihalcea/capstone-project/blob/main/02_Clean_Data)
+[R code](https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/02_Clean_Data.R)
 1. Check the correct data type of each field and if all files have the same fields.
 2. Union all the monthly data frames into one data frame for the entire year.
 3. Display the new data frame.
