@@ -88,7 +88,7 @@ width=40% height=40%>
 width=40% height=40%>
 
 <img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz03_bar_weekdays.png"
-width=40% height=40%>
+width=60% height=60%>
 
 <img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz04_bar_weekend_workweek.png"
 width=40% height=40%>
