@@ -80,24 +80,43 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 
 ## Analysis Summary
 
-The total number or rides in 2022 is 4.4 million, annual members having a 60% share, and the casual riders a 40% share.
+The total number of rides in 2022 is 4.4 million, with annual members having a 60% share, and casual riders a 40% share.
+
 <img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz01_doughnut_rides_customer_type.png"
 width=40% height=40%>
+
+The average ride time represents a significant difference since the level for casual riders is double compared to the annual members.
 
 <img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz02_bar_average_ride_time.png"
 width=40% height=40%>
 
+Another significant difference is revealed in the analysis of the number of rides per day of the week.
+
+The peak for annual members is between Tuesday and Thursday, and the low is on Sunday.
+
+The peak for casual riders is during the weekend, with the work week at significantly lower levels.
+
 <img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz03_bar_weekdays.png"
 width=60% height=60%>
+
+Further exploring the previous finding, this difference is better revealed after determining the average daily rides for the weekend compared to the workweek, for each customer type.
+
+The average daily rides for annual members are lower during the weekend and the opposite for casual riders.
 
 <img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz04_bar_weekend_workweek.png"
 width=40% height=40%>
 
+The analysis of the number of rides for each month shows a peak during the summer and a low during the winter. This applies to both annual members and casual riders.
+
 <img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz05_bar_months.png"
 width=50% height=50%>
 
+The overall trend regarding months and days of the week can be also noticed in this heat map chart.
+
 <img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz06_heat_map.png "
 width=100% height=100%>
+
+Regarding the preferred type of bikes, both customer types prefer the classic bike, but at a higher rate for the annual members.
 
 <img src="https://github.com/alin-mihalcea/google-data-analytics-capstone-project/blob/main/viz07_bar_bike_type.png"
 width=40% height=40%>
@@ -106,6 +125,8 @@ width=40% height=40%>
 ## Top 3 Recommendations
 Your top three recommendations based on your analysis
 
-1. The daily average number of rides for casual riders is 33 during the weekend and 22 during the workweek, indicating a preference for weekends. My recomednatioon is to increase the price of full-day passes for weekends, to incentivize the casual riders to save money by purchasing annual memberships.
-2. When casual members purchase passes, provide them simulations revealing how much money they would save having an annual membershuip compared to purchasing passses during the summer months, when both casual members and casual riders ride the most.
-3.
+1. Considering the casual riders prefer the weekend, I recommend analyzing the prices of the passes and annual memberships and adjusting them if needed to incentivize the casual riders to save money by purchasing annual memberships.
+
+2. When casual members purchase passes, provide them simulations revealing how much money they would save having an annual membership compared to purchasing passes, with a focus on the summer months, when both casual members and casual riders ride the most.
+
+3. Offer a free subscription to a cycling monitoring app for annual members. Promote testimonials of the app users, explaining how they benefit from this form of gamification.
