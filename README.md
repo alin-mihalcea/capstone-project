@@ -1,6 +1,6 @@
 # Google Data Analytics Capstone Project: How Does a Bike-Share Navigate Speedy Success?
 
-This is my Casptone Project for the **Google Data Analytics Certificate** (Track 1, Case Study 1).
+This is my Casptone Project for the [**Google Data Analytics Certificate**](https://www.credly.com/badges/123985c2-8ea2-4731-aab7-34617a398919) (Track 1, Case Study 1).
 
 The scope of this project is to answer the key business questions for Cyclistic, a fictional company. I will follow the steps of the data analysis process: ask, prepare, process, analyze, share, and act.
 
